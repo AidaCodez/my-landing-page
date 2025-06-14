@@ -429,6 +429,51 @@ section .button button:hover{
 
 
 
+/*Contact Me Styling*/
+.contact{
+    background: black;
+}
+.contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+footer{
+    background: #b74b4b;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins','sans-serif';
+}
+footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #f1f1f1;
+}
+footer .text span a{
+    font-weight: 500;
+    color: #f1f1f1;
+}
+footer .text span a:hover{
+    text-decoration: underline;
+}
+.scroll-botton a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #f1f1f1;
+    background: #b74b4b;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
 
 
 

@@ -116,6 +116,10 @@ nav{
     transition: 0.2s linear;
 }
 
+.dropdown.active {
+    transform: translateY(0); /* Slide into view */
+}
+
 .dropdown .links a{
     display: flex;
     color: white;
@@ -194,6 +198,16 @@ section .main-container{
 .content .typewriter-text{
     color: #b74b4b;
     text-shadow: 0 0 10px #b74b4b;
+}
+
+label {
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
 .content p{
@@ -517,7 +531,7 @@ footer .text span a:hover{
         flex-direction: column;
     }
 
-    .nav-container.links{
+    .nav-container .links{
         display: none;
     }
 

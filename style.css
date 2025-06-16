@@ -113,7 +113,7 @@ nav{
     height: auto;
     backdrop-filter: blur(4px) brightness(40%);
     box-shadow: 0 0 20px black;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
 }
 
 .dropdown .links a{
@@ -186,12 +186,12 @@ section .main-container{
     text-shadow: 0 0 10px #b74b4b;
 }
 
-.content.typewriter{
+.content .typewriter{
     font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
     font-weight: 600;
 }
 
-.content.typewriter-text{
+.content .typewriter-text{
     color: #b74b4b;
     text-shadow: 0 0 10px #b74b4b;
 }
@@ -587,9 +587,3 @@ footer .text span a:hover{
         color: #b74b4b;
     }
 }
-
-
-
-
-
-
